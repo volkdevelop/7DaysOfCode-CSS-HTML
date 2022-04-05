@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   outline: 0;
@@ -103,4 +103,110 @@ a {
   background-color: #8e2424;
   border-radius: 5px;
   color: #ffffff;
+}
+
+/*PRIMEIRA SEÇÃO */
+
+.sobrenos{
+  padding: 96px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sobrenostitle{
+  color: #8e2424;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sobrenos h1{
+  font-size: 48px;
+  color: #101828;
+}
+
+.sobrenos p{
+  color: #667085;
+  line-height: 30px;
+  max-width: 50%;
+  text-align: center;
+}
+
+
+/*SEÇÃO DE MÉTRICAS*/
+
+.secaometricas{
+  display: flex;
+  justify-content: center;
+  gap:0 24px;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 96px;
+}
+
+.projetos, .downloads, .colaboradores, .reviews{
+  width: 280px;
+}
+
+.numeros{
+  font-size: 60px;
+  color: #8e2424;
+  font-weight: 600;
+  line-height: 72px;
+}
+
+.titulos{
+  color: #101828;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.content{
+  color: #667085;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/*SEÇÃO COM IMAGEM */
+
+.secaoimagem{
+  padding: 96px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tituloimagem{
+  color: #8e2424;
+  font-size: 14px;
+  font-weight: 500;
+  background: #8e242405;
+  padding: 4px 12px;
+  border-radius: 16px;
+}
+
+.secaoimagem h1{
+  font-size: 34px;
+  color: #101828;
+  line-height: 44px;
+  letter-spacing: -2%;
+  font-weight: 600;
+}
+
+.secaoimagem p{
+  color: #667085;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.secaoimagem img{
+  padding-top: 4rem;
 }
