@@ -175,7 +175,7 @@ a {
 /*SEÇÃO COM IMAGEM */
 
 .secaoimagem{
-  padding: 96px 0;
+  padding-top: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,7 +191,7 @@ a {
   padding: 4px 12px;
   border-radius: 16px;
 }
-
+  
 .secaoimagem h1{
   font-size: 34px;
   color: #101828;
@@ -209,4 +209,52 @@ a {
 
 .secaoimagem img{
   padding-top: 4rem;
+}
+
+/*Seção de Vagas*/
+
+.secaodevagas {
+  width: 50%;
+  margin: auto;
+  /* TEMPORÁRIO */
+  padding-bottom: 5rem;
+}
+
+
+.areadavaga{
+  color: #101828;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 4rem 0 2rem 0;
+}
+
+.vagasecao{
+  display: flex;
+  border: solid #eaecf0 01px;
+  border-radius: 1rem;
+  flex-direction: column;
+  margin: 1.6rem auto;
+  padding: 1.5rem;
+  gap: 2rem;
+}
+
+.titulovagas{
+  color: #101828;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.infovagas{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.infovagas p{
+  color: #667085;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }
